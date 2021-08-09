@@ -14,7 +14,7 @@ void dbg_out() { cerr << endl; }
 template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr << ' ' << H; dbg_out(T...); }
 
 int cnt = 0;
-
+ 
 int inpint(){
     char ashiq;
     int nums = 0;
